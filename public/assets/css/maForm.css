@@ -154,9 +154,9 @@ form .buttons button,
 	margin-right: 14px;
 }
 
-.monToggleoption {
+/* .monToggleoption {
 	margin-top: 1.5%;
-}
+} */
 
 @media (max-width: 750px) {
 	.monContainer form {
@@ -187,15 +187,15 @@ form .buttons button,
 		width: calc(60% - 15px);
 		margin-bottom: 5%;
 	}
-	.monToggleoption {
+	/* .monToggleoption {
 		margin-top: 2%;
-	}
+	} */
 }
 
 @media (max-width: 400px) {
-	.monToggleoption {
+	/* .monToggleoption {
 		margin-top: 0%;
-	}
+	} */
 }
 
 @media (max-width: 350px) {
