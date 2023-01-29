@@ -29,7 +29,7 @@ export default function ProfilHeader() {
 						alt="photo de profile"
 						style={{ width: "40px", height: "40px", borderRadius: "50%" }}
 					/>
-					<span> {u_info.u_identification} </span>
+					<span> LEFORT </span>
 				</a>
 				<ul className="dropdown-menu dropdown-user">
 					<li>
@@ -45,7 +45,7 @@ export default function ProfilHeader() {
 							</div>
 							<div className="u-text">
 								<h4> {u_info.u_identification} </h4>
-								<p className="text-muted">{u_info.u_nom}@gmail.com</p>
+								<p className="text-muted">Lefortnuno@gmail.com</p>
 								<Link
 									to="/mesDossiers/"
 									className="btn btn-rounded btn-danger btn-sm"

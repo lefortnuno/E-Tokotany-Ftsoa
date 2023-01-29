@@ -21,8 +21,8 @@ export default function ProfilSidebar() {
 						aria-expanded="true"
 					>
 						<span>
-							{u_info.u_identification}
-							<span className="user-level">{u_info.u_attribut}</span>
+							LEFORT
+							<span className="user-level">Administrateur</span>
 							{/* <span className="caret"></span> */}
 						</span>
 					</a>
