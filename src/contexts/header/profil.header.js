@@ -23,7 +23,9 @@ export default function ProfilHeader() {
 					aria-expanded="false"
 				>
 					<img
-						src={process.env.PUBLIC_URL + `/picture/pdp/${u_info.u_photoPDP}`}
+						src={
+							process.env.PUBLIC_URL + `/picture/pdp/1671269107521-DSC_0101.JPG`
+						}
 						alt="photo de profile"
 						style={{ width: "40px", height: "40px", borderRadius: "50%" }}
 					/>
@@ -35,7 +37,8 @@ export default function ProfilHeader() {
 							<div className="u-img">
 								<img
 									src={
-										process.env.PUBLIC_URL + `/picture/pdp/${u_info.u_photoPDP}`
+										process.env.PUBLIC_URL +
+										`/picture/pdp/1671269107521-DSC_0101.JPG`
 									}
 									alt="photo de profile"
 								/>

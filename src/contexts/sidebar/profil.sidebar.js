@@ -7,7 +7,9 @@ export default function ProfilSidebar() {
 			<div className="user">
 				<div className="photo">
 					<img
-						src={process.env.PUBLIC_URL + `/picture/pdp/${u_info.u_photoPDP}`}
+						src={
+							process.env.PUBLIC_URL + `/picture/pdp/1671269107521-DSC_0101.JPG`
+						}
 						alt="photo de profile"
 					/>
 				</div>
