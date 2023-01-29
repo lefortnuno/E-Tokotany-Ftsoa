@@ -24,7 +24,7 @@ export default function ProfilHeader() {
 				>
 					<img
 						src={process.env.PUBLIC_URL + `/picture/pdp/${u_info.u_photoPDP}`}
-						alt="pdp"
+						alt="photo de profile"
 						style={{ width: "40px", height: "40px", borderRadius: "50%" }}
 					/>
 					<span> {u_info.u_identification} </span>
@@ -37,7 +37,7 @@ export default function ProfilHeader() {
 									src={
 										process.env.PUBLIC_URL + `/picture/pdp/${u_info.u_photoPDP}`
 									}
-									alt="pdp"
+									alt="photo de profile"
 								/>
 							</div>
 							<div className="u-text">
